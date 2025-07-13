@@ -3,7 +3,7 @@ import smtplib
 from email.mime.text import MIMEText
 
 app = Flask(__name__)
-
+CORS(app)
 @app.route('/send-table-email', methods=['POST'])
 def send_table_email():
     data = request.json

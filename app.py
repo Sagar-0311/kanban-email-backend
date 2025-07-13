@@ -43,7 +43,7 @@ def send_table_email():
 
     # Send mail
     try:
-        with smtplib.SMTP_SSL(smtp_host, smtp_port) as server:
+        with smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=15) as server:
             server.login(smtp_user, smtp_pass)
             server.sendmail(smtp_user, emails, msg.as_string())
         os.unlink(tmpfile_path)  # Delete temp file

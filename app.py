@@ -20,7 +20,7 @@ def send_table_email():
     smtp_host = 'smtp.gmail.com'
     smtp_port = 465
     smtp_user = 'satgpt2025@gmail.com'
-    smtp_pass = 'dtnt uwzg mhrl mzgc'
+    smtp_pass = 'guln ujyg jzff arag'
 
 
     # -- Step 1: Save table string to temp CSV file --

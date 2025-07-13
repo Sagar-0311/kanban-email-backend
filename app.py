@@ -17,10 +17,11 @@ def send_table_email():
     emails = data.get('emails', [])
     subject = data.get('subject', 'Kanban Table Data')
     table = data.get('table', '')
-    smtp_host = 'smtp.secureserver.net'         # GoDaddy SMTP host
-    smtp_port = 465                             # GoDaddy SMTP SSL port
-    smtp_user = 'sagar@sunidhiagrotech.com'     # Your GoDaddy email
-    smtp_pass = 'Sunidhi@2025#'                 # Your GoDaddy email password
+    smtp_host = 'smtp.gmail.com'
+    smtp_port = 465
+    smtp_user = 'satgpt2025@gmail.com'
+    smtp_pass = 'dtnt uwzg mhrl mzgc'
+
 
     # -- Step 1: Save table string to temp CSV file --
     try:
